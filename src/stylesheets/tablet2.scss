@@ -1,0 +1,13 @@
+@import "globals";
+
+.destaques {
+	.thumbs li{
+		max-width: 55px;
+	}
+	.big-image img {
+		max-width: 240px;
+	}
+	.fixmargintop {
+		margin-top: 0;
+	}
+}

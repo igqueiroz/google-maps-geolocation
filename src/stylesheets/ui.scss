@@ -1,0 +1,31 @@
+@import "globals";
+@import "/assets/bootstrap/css/bootstrap.min.css";
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,700');
+
+
+/* MENU STYLE */
+@import "js-offcanvas.css";
+
+/* COMMON STYLES */
+@import "style.scss";
+
+/* TABLET HORIZONTAL */
+@media screen and (max-width: 1200px){
+	
+	@import "tablet.scss";
+
+}
+
+/* TABLET VERTICAL */
+@media screen and (max-width: 991px) {
+	
+	@import "tablet2.scss";
+	
+}
+
+/* MOBILE PHONES */
+@media screen and (max-width: 767px), only screen and (max-device-width: 480px) {
+	
+	@import "phone.scss";
+	
+}
